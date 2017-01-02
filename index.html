@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <!-- Import custom CSS -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <!-- Import fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+      <!-- animate -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">YOURSTORE.COM</a>
+        </div>
+      </nav>
+
+      <!-- Page Content -->
+      <div class="container page-content">
+        <h5 class="center-align">page content</h5>
+      </div>
+
+      <!-- Popup -->
+      <div class="row popup">
+        <div class="col m4 card right animated slideInRight">          
+          <a class="close right"><i class="material-icons">clear</i></a>
+          <div class="content">
+            <div class="row title">
+              <div class="col m12">
+              <h5>Are you looking for <b>'White dresses'</b>?</h5>
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="col s12 m6">
+                <div class="product">
+                  <div class="row image">
+                    <div class="col m6" style="padding: 0;">
+                    <img src="images/g2.jpg" class="responsive-img">
+                    </div>
+                    <div class="col m6" style="padding: 0;">
+                    <img src="images/g3.jpg" class="responsive-img">
+                    </div>
+                  </div>
+                  <div class="description">
+                    <h6 ><b>Cotton White Dresses</b></h6>
+                    <p>See more</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6">
+                <div class="product">
+                  <div class="row image">
+                    <div class="col m6" style="padding: 0;">
+                    <img src="images/r1.jpg" class="responsive-img">
+                    </div>
+                    <div class="col m6" style="padding: 0;">
+                    <img src="images/r2.jpg" class="responsive-img">
+                    </div>
+                  </div>
+                  <div class="description">
+                    <h6 ><b>Cotton White Dresses</b></h6>
+                    <p>See more</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.close').click(function(){
+            $('.popup').remove();
+          })
+        });
+      </script>
+    </body>
+  </html>
