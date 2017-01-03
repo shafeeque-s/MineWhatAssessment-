@@ -1,4 +1,4 @@
-[
+data= [
 	{
 		"id": "1",
 		"Productcat": "White dresses",
@@ -59,32 +59,25 @@
 		"id": "9",
 		"Productcat": "White dresses",
 		"Productname": "Product Title",
-		"Image": ["images/n1.jpg"]
+		"Image": ["images/n1.jpg","images/n2.jpg"]
 		
 	},
-	{
+		{
 		"id": "10",
-		"Productcat": "White dresses",
-		"Productname": "Product Title",
-		"Image": ["images/n2.jpg"]
-		
-	},
-	{
-		"id": "11",
 		"Productcat": "White dresses",
 		"Productname": "Product Title",
 		"Image": ["images/n3.jpg"]
 		
 	},
 	{
-		"id": "12",
+		"id": "11",
 		"Productcat": "White dresses",
 		"Productname": "Product Title",
 		"Image": ["images/p1.jpg"]
 		
 	},
 	{
-		"id": "13",
+		"id": "12",
 		"Productcat": "White dresses",
 		"Productname": "Product Title",
 		"Image": ["images/r1.jpg","images/r2.jpg"]
